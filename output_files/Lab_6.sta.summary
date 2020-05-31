@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'inst'
+Slack : -4.222
+TNS   : -20.469
+
+Type  : Slow 1200mV 85C Model Setup 'inst16'
+Slack : -1.303
+TNS   : -8.516
+
+Type  : Slow 1200mV 85C Model Setup 'Clock'
+Slack : -1.038
+TNS   : -1.038
+
+Type  : Slow 1200mV 85C Model Setup 'counter:inst2|Q[5]'
+Slack : -0.115
+TNS   : -0.115
+
+Type  : Slow 1200mV 85C Model Hold 'counter:inst2|Q[5]'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'inst'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'inst16'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clock'
+Slack : 0.796
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'inst'
+Slack : -3.544
+TNS   : -24.196
+
+Type  : Slow 1200mV 85C Model Recovery 'inst16'
+Slack : -1.712
+TNS   : -17.120
+
+Type  : Slow 1200mV 85C Model Removal 'inst'
+Slack : 0.920
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'inst16'
+Slack : 1.513
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'inst'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'inst16'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter:inst2|Q[5]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'inst'
+Slack : -3.737
+TNS   : -17.766
+
+Type  : Slow 1200mV 0C Model Setup 'inst16'
+Slack : -1.083
+TNS   : -6.884
+
+Type  : Slow 1200mV 0C Model Setup 'Clock'
+Slack : -0.907
+TNS   : -0.907
+
+Type  : Slow 1200mV 0C Model Setup 'counter:inst2|Q[5]'
+Slack : -0.040
+TNS   : -0.040
+
+Type  : Slow 1200mV 0C Model Hold 'counter:inst2|Q[5]'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'inst'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'inst16'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clock'
+Slack : 0.706
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'inst'
+Slack : -3.144
+TNS   : -21.373
+
+Type  : Slow 1200mV 0C Model Recovery 'inst16'
+Slack : -1.473
+TNS   : -14.730
+
+Type  : Slow 1200mV 0C Model Removal 'inst'
+Slack : 0.840
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'inst16'
+Slack : 1.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'inst'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'inst16'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter:inst2|Q[5]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'inst'
+Slack : -1.906
+TNS   : -8.021
+
+Type  : Fast 1200mV 0C Model Setup 'Clock'
+Slack : -0.109
+TNS   : -0.109
+
+Type  : Fast 1200mV 0C Model Setup 'inst16'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'counter:inst2|Q[5]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'counter:inst2|Q[5]'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'inst'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'inst16'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clock'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'inst'
+Slack : -1.434
+TNS   : -8.394
+
+Type  : Fast 1200mV 0C Model Recovery 'inst16'
+Slack : -0.176
+TNS   : -1.760
+
+Type  : Fast 1200mV 0C Model Removal 'inst'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'inst16'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -4.008
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'inst'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'inst16'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter:inst2|Q[5]'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

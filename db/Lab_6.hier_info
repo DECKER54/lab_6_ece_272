@@ -1,0 +1,375 @@
+|Lab_6
+Hsync <= comparator1:inst5.atob
+Reset => inst.ACLR
+Clock => inst.CLK
+Vsync <= comparator4:inst12.atob
+Blueout[0] <= BUSMUX:inst21.result[0]
+Blueout[1] <= BUSMUX:inst21.result[1]
+Blueout[2] <= BUSMUX:inst21.result[2]
+Blueout[3] <= BUSMUX:inst21.result[3]
+Blue[0] => BUSMUX:inst21.datab[0]
+Blue[1] => BUSMUX:inst21.datab[1]
+Blue[2] => BUSMUX:inst21.datab[2]
+Blue[3] => BUSMUX:inst21.datab[3]
+Greenout[0] <= BUSMUX:inst18.result[0]
+Greenout[1] <= BUSMUX:inst18.result[1]
+Greenout[2] <= BUSMUX:inst18.result[2]
+Greenout[3] <= BUSMUX:inst18.result[3]
+Green[0] => BUSMUX:inst18.datab[0]
+Green[1] => BUSMUX:inst18.datab[1]
+Green[2] => BUSMUX:inst18.datab[2]
+Green[3] => BUSMUX:inst18.datab[3]
+Redout[0] <= BUSMUX:inst20.result[0]
+Redout[1] <= BUSMUX:inst20.result[1]
+Redout[2] <= BUSMUX:inst20.result[2]
+Redout[3] <= BUSMUX:inst20.result[3]
+Red[0] => BUSMUX:inst20.datab[0]
+Red[1] => BUSMUX:inst20.datab[1]
+Red[2] => BUSMUX:inst20.datab[2]
+Red[3] => BUSMUX:inst20.datab[3]
+
+
+|Lab_6|comparator1:inst5
+count[0] => LessThan0.IN20
+count[1] => LessThan0.IN19
+count[2] => LessThan0.IN18
+count[3] => LessThan0.IN17
+count[4] => LessThan0.IN16
+count[5] => LessThan0.IN15
+count[6] => LessThan0.IN14
+count[7] => LessThan0.IN13
+count[8] => LessThan0.IN12
+count[9] => LessThan0.IN11
+atob <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|counter:inst2
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+clock => Q[6]~reg0.CLK
+clock => Q[7]~reg0.CLK
+clock => Q[8]~reg0.CLK
+clock => Q[9]~reg0.CLK
+reset => Q[0]~reg0.ACLR
+reset => Q[1]~reg0.ACLR
+reset => Q[2]~reg0.ACLR
+reset => Q[3]~reg0.ACLR
+reset => Q[4]~reg0.ACLR
+reset => Q[5]~reg0.ACLR
+reset => Q[6]~reg0.ACLR
+reset => Q[7]~reg0.ACLR
+reset => Q[8]~reg0.ACLR
+reset => Q[9]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= Q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= Q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|comparator3:inst10
+count[0] => LessThan0.IN20
+count[1] => LessThan0.IN19
+count[2] => LessThan0.IN18
+count[3] => LessThan0.IN17
+count[4] => LessThan0.IN16
+count[5] => LessThan0.IN15
+count[6] => LessThan0.IN14
+count[7] => LessThan0.IN13
+count[8] => LessThan0.IN12
+count[9] => LessThan0.IN11
+dtoa <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|comparator4:inst12
+count[0] => LessThan0.IN20
+count[1] => LessThan0.IN19
+count[2] => LessThan0.IN18
+count[3] => LessThan0.IN17
+count[4] => LessThan0.IN16
+count[5] => LessThan0.IN15
+count[6] => LessThan0.IN14
+count[7] => LessThan0.IN13
+count[8] => LessThan0.IN12
+count[9] => LessThan0.IN11
+atob <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|counter:inst11
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+clock => Q[6]~reg0.CLK
+clock => Q[7]~reg0.CLK
+clock => Q[8]~reg0.CLK
+clock => Q[9]~reg0.CLK
+reset => Q[0]~reg0.ACLR
+reset => Q[1]~reg0.ACLR
+reset => Q[2]~reg0.ACLR
+reset => Q[3]~reg0.ACLR
+reset => Q[4]~reg0.ACLR
+reset => Q[5]~reg0.ACLR
+reset => Q[6]~reg0.ACLR
+reset => Q[7]~reg0.ACLR
+reset => Q[8]~reg0.ACLR
+reset => Q[9]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= Q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= Q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|comparator6:inst14
+count[0] => LessThan0.IN20
+count[1] => LessThan0.IN19
+count[2] => LessThan0.IN18
+count[3] => LessThan0.IN17
+count[4] => LessThan0.IN16
+count[5] => LessThan0.IN15
+count[6] => LessThan0.IN14
+count[7] => LessThan0.IN13
+count[8] => LessThan0.IN12
+count[9] => LessThan0.IN11
+dtoa <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|BUSMUX:inst21
+dataa[0] => lpm_mux:$00000.data[0][0]
+dataa[1] => lpm_mux:$00000.data[0][1]
+dataa[2] => lpm_mux:$00000.data[0][2]
+dataa[3] => lpm_mux:$00000.data[0][3]
+datab[0] => lpm_mux:$00000.data[1][0]
+datab[1] => lpm_mux:$00000.data[1][1]
+datab[2] => lpm_mux:$00000.data[1][2]
+datab[3] => lpm_mux:$00000.data[1][3]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+result[1] <= lpm_mux:$00000.result[1]
+result[2] <= lpm_mux:$00000.result[2]
+result[3] <= lpm_mux:$00000.result[3]
+
+
+|Lab_6|BUSMUX:inst21|lpm_mux:$00000
+data[0][0] => mux_06c:auto_generated.data[0]
+data[0][1] => mux_06c:auto_generated.data[1]
+data[0][2] => mux_06c:auto_generated.data[2]
+data[0][3] => mux_06c:auto_generated.data[3]
+data[1][0] => mux_06c:auto_generated.data[4]
+data[1][1] => mux_06c:auto_generated.data[5]
+data[1][2] => mux_06c:auto_generated.data[6]
+data[1][3] => mux_06c:auto_generated.data[7]
+sel[0] => mux_06c:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_06c:auto_generated.result[0]
+result[1] <= mux_06c:auto_generated.result[1]
+result[2] <= mux_06c:auto_generated.result[2]
+result[3] <= mux_06c:auto_generated.result[3]
+
+
+|Lab_6|BUSMUX:inst21|lpm_mux:$00000|mux_06c:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[1].IN1
+data[2] => result_node[2].IN1
+data[3] => result_node[3].IN1
+data[4] => result_node[0].IN1
+data[5] => result_node[1].IN1
+data[6] => result_node[2].IN1
+data[7] => result_node[3].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result_node[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result_node[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result_node[3].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[3].IN0
+sel[0] => _.IN0
+sel[0] => result_node[2].IN0
+sel[0] => _.IN0
+sel[0] => result_node[1].IN0
+sel[0] => _.IN0
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|Lab_6|comparator5:inst13
+count[0] => LessThan0.IN20
+count[0] => LessThan1.IN20
+count[1] => LessThan0.IN19
+count[1] => LessThan1.IN19
+count[2] => LessThan0.IN18
+count[2] => LessThan1.IN18
+count[3] => LessThan0.IN17
+count[3] => LessThan1.IN17
+count[4] => LessThan0.IN16
+count[4] => LessThan1.IN16
+count[5] => LessThan0.IN15
+count[5] => LessThan1.IN15
+count[6] => LessThan0.IN14
+count[6] => LessThan1.IN14
+count[7] => LessThan0.IN13
+count[7] => LessThan1.IN13
+count[8] => LessThan0.IN12
+count[8] => LessThan1.IN12
+count[9] => LessThan0.IN11
+count[9] => LessThan1.IN11
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|comparator2:inst4
+count[0] => LessThan0.IN20
+count[0] => LessThan1.IN20
+count[1] => LessThan0.IN19
+count[1] => LessThan1.IN19
+count[2] => LessThan0.IN18
+count[2] => LessThan1.IN18
+count[3] => LessThan0.IN17
+count[3] => LessThan1.IN17
+count[4] => LessThan0.IN16
+count[4] => LessThan1.IN16
+count[5] => LessThan0.IN15
+count[5] => LessThan1.IN15
+count[6] => LessThan0.IN14
+count[6] => LessThan1.IN14
+count[7] => LessThan0.IN13
+count[7] => LessThan1.IN13
+count[8] => LessThan0.IN12
+count[8] => LessThan1.IN12
+count[9] => LessThan0.IN11
+count[9] => LessThan1.IN11
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_6|BUSMUX:inst18
+dataa[0] => lpm_mux:$00000.data[0][0]
+dataa[1] => lpm_mux:$00000.data[0][1]
+dataa[2] => lpm_mux:$00000.data[0][2]
+dataa[3] => lpm_mux:$00000.data[0][3]
+datab[0] => lpm_mux:$00000.data[1][0]
+datab[1] => lpm_mux:$00000.data[1][1]
+datab[2] => lpm_mux:$00000.data[1][2]
+datab[3] => lpm_mux:$00000.data[1][3]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+result[1] <= lpm_mux:$00000.result[1]
+result[2] <= lpm_mux:$00000.result[2]
+result[3] <= lpm_mux:$00000.result[3]
+
+
+|Lab_6|BUSMUX:inst18|lpm_mux:$00000
+data[0][0] => mux_06c:auto_generated.data[0]
+data[0][1] => mux_06c:auto_generated.data[1]
+data[0][2] => mux_06c:auto_generated.data[2]
+data[0][3] => mux_06c:auto_generated.data[3]
+data[1][0] => mux_06c:auto_generated.data[4]
+data[1][1] => mux_06c:auto_generated.data[5]
+data[1][2] => mux_06c:auto_generated.data[6]
+data[1][3] => mux_06c:auto_generated.data[7]
+sel[0] => mux_06c:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_06c:auto_generated.result[0]
+result[1] <= mux_06c:auto_generated.result[1]
+result[2] <= mux_06c:auto_generated.result[2]
+result[3] <= mux_06c:auto_generated.result[3]
+
+
+|Lab_6|BUSMUX:inst18|lpm_mux:$00000|mux_06c:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[1].IN1
+data[2] => result_node[2].IN1
+data[3] => result_node[3].IN1
+data[4] => result_node[0].IN1
+data[5] => result_node[1].IN1
+data[6] => result_node[2].IN1
+data[7] => result_node[3].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result_node[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result_node[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result_node[3].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[3].IN0
+sel[0] => _.IN0
+sel[0] => result_node[2].IN0
+sel[0] => _.IN0
+sel[0] => result_node[1].IN0
+sel[0] => _.IN0
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|Lab_6|BUSMUX:inst20
+dataa[0] => lpm_mux:$00000.data[0][0]
+dataa[1] => lpm_mux:$00000.data[0][1]
+dataa[2] => lpm_mux:$00000.data[0][2]
+dataa[3] => lpm_mux:$00000.data[0][3]
+datab[0] => lpm_mux:$00000.data[1][0]
+datab[1] => lpm_mux:$00000.data[1][1]
+datab[2] => lpm_mux:$00000.data[1][2]
+datab[3] => lpm_mux:$00000.data[1][3]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+result[1] <= lpm_mux:$00000.result[1]
+result[2] <= lpm_mux:$00000.result[2]
+result[3] <= lpm_mux:$00000.result[3]
+
+
+|Lab_6|BUSMUX:inst20|lpm_mux:$00000
+data[0][0] => mux_06c:auto_generated.data[0]
+data[0][1] => mux_06c:auto_generated.data[1]
+data[0][2] => mux_06c:auto_generated.data[2]
+data[0][3] => mux_06c:auto_generated.data[3]
+data[1][0] => mux_06c:auto_generated.data[4]
+data[1][1] => mux_06c:auto_generated.data[5]
+data[1][2] => mux_06c:auto_generated.data[6]
+data[1][3] => mux_06c:auto_generated.data[7]
+sel[0] => mux_06c:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_06c:auto_generated.result[0]
+result[1] <= mux_06c:auto_generated.result[1]
+result[2] <= mux_06c:auto_generated.result[2]
+result[3] <= mux_06c:auto_generated.result[3]
+
+
+|Lab_6|BUSMUX:inst20|lpm_mux:$00000|mux_06c:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[1].IN1
+data[2] => result_node[2].IN1
+data[3] => result_node[3].IN1
+data[4] => result_node[0].IN1
+data[5] => result_node[1].IN1
+data[6] => result_node[2].IN1
+data[7] => result_node[3].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result_node[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result_node[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result_node[3].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[3].IN0
+sel[0] => _.IN0
+sel[0] => result_node[2].IN0
+sel[0] => _.IN0
+sel[0] => result_node[1].IN0
+sel[0] => _.IN0
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+

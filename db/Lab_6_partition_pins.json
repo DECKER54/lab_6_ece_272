@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Hsync",
+					"strict" : false
+				},
+				{
+					"name" : "Vsync",
+					"strict" : false
+				},
+				{
+					"name" : "Blueout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Blueout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Blueout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Blueout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Greenout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Greenout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Greenout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Greenout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Redout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Redout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Redout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Redout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Blue[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Blue[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Blue[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Blue[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Green[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Green[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Green[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Green[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Red[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Red[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Red[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Red[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

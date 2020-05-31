@@ -1,0 +1,6 @@
+module comparator2#(parameter N = 10) (input logic[9:0] clock, output logic btoc);
+
+
+	assign btoc = (clock  > 144);
+	
+endmodule
